@@ -51,7 +51,7 @@ function App() {
       formData.append('image', selectedFile);
 
       // Call the stippling API
-      const response = await fetch('https://stippling-api.onrender.com/stipple', {
+      const response = await fetch('https://stippling-backend.onrender.com/stipple', {
         method: 'POST',
         body: formData,
       });
